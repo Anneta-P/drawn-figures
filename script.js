@@ -16,7 +16,7 @@
 
 /////////////////СТРІЛКА ВНИЗ/////////
 
-// let len = 7;
+// const len = 7;
 // let line = '';
 
 // for (let i = 0; i < len; i++) {
@@ -32,17 +32,19 @@
 // console.log(line);
 
 /////////////////СТРІЛКА ВГОРУ/////////
-let len = 7;
-let line = '';
+// const len = 7;
+// let line = '';
 
-for (let i = 1; i <= len; i++) {
-  for (let j = 1; j <= len - i; j++) {
-    line += ' ';
-  }
+// for (let i = 1; i <= len; i++) {
+//   for (let j = 1; j <= len - i; j++) {
+//     line += ' ';
+//   }
 
-  for (let g = 0; g < 2 * i - 7; g++) {
-    line += '*';
-  }
-  line += '\n';
-}
-console.log(line);
+//   for (let g = 0; g < 2 * i - 7; g++) {
+//     line += '*';
+//   }
+//   line += '\n';
+// }
+// console.log(line);
+
+/////////////////СТРІЛКА ВЛІВО///////////////////
