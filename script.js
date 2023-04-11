@@ -1,4 +1,12 @@
-////////////////КВАДРАТ//////////////
+// const len = 7;
+
+// const heigh = Math.ceil(len / 2);
+// for (let heighIndex = 0; heighIndex < heigh; heighIndex++) {
+//   const starts = len - heighIndex * 2;
+//   console.log(' '.repeat(heighIndex) + '*'.repeat(starts));
+// }
+
+///////////////КВАДРАТ//////////////
 
 // const len = 7;
 
@@ -71,18 +79,18 @@
 // console.log(line);
 
 /////////////////СТРІЛКА ВПРАВО///////////////////
-const len = 7;
-let line = '';
-for (let i = 1; i <= len; i++) {
-  for (let j = 0; j < i; j++) {
-    line += '*';
-  }
-  line += '\n';
-}
-for (let i = 1; i <= len - 1; i++) {
-  for (let j = 0; j < len - i; j++) {
-    line += '*';
-  }
-  line += '\n';
-}
-console.log(line);
+// const len = 7;
+// let line = '';
+// for (let i = 1; i <= len; i++) {
+//   for (let j = 0; j < i; j++) {
+//     line += '*';
+//   }
+//   line += '\n';
+// }
+// for (let i = 1; i <= len - 1; i++) {
+//   for (let j = 0; j < len - i; j++) {
+//     line += '*';
+//   }
+//   line += '\n';
+// }
+// console.log(line);
