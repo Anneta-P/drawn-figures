@@ -24,25 +24,6 @@
 //   console.log(' '.repeat(heighIndex) + '*'.repeat(starts));
 // }
 
-// const len = 7;
-// let line = '';
-
-// for (let i = 0; i < len; i++) {
-//   for (let j = 0; j < i; j++) {
-//     line += ' ';
-//   }
-
-//   for (let g = 0; g < 2 * (len - i) - 7; g++) {
-//     line += '*';
-//   }
-//   line += '\n';
-// }
-// console.log(line);
-
-
-
-/////////////////СТРІЛКА ВГОРУ  ++++++/////////
-
 let i = 0,
   j = 0;
 const len = 7;
@@ -57,6 +38,25 @@ while (i < 4) {
   console.log(space + star);
   i++;
 }
+
+
+
+/////////////////СТРІЛКА ВГОРУ  ++++++/////////
+
+// let i = 0,
+//   j = 0;
+// const len = 7;
+// var space = "",
+//   star = "";
+
+// while (i < 4) {
+//   space = "";
+//   star = "";
+//   for (j = 0; j < len - i; j++) space += " ";
+//   for (j = 0; j < 2 * i + 1; j++) star += "*";
+//   console.log(space + star);
+//   i++;
+// }
 
 
 /////////////СТРІЛКА ВЛІВО --------- ///////////////
