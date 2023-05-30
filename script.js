@@ -57,20 +57,21 @@
 // }
 // console.log(line);
 
+let i = 0,
+  j = 0;
+// Желаемое количество строк
+var max = 4;
+var space = "",
+  star = "";
 
-const len = 7;
-for(i=1; i<=5; i++)
-{
- for(j=5; j>=i; j--)
-  console.log("&nbsp;&nbsp; ");
- for(k=1; k<=i; k++)
- console.log(k +" ");
- n = k - 1;
- for(m=1; m<i; m++)
- console.log(--n +" ");
- document.write("<br>");
+while (i < max) {
+  space = "";
+  star = "";
+  for (j = 0; j < max - i; j++) space += " ";
+  for (j = 0; j < 2 * i + 1; j++) star += "*";
+  console.log(space + star);
+  i++;
 }
-
 
 
 /////////////СТРІЛКА ВЛІВО --------- ///////////////
