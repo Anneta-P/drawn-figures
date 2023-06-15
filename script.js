@@ -27,18 +27,16 @@
 let i = 0,
   j = 0;
 const len = 7;
-var space = "",
+let space = "",
   star = "";
 
-while (i < 4) {
+for (i = 3; i >= 0; i--) {
   space = "";
   star = "";
   for (j = 0; j < len - i; j++) space += " ";
   for (j = 0; j < 2 * i + 1; j++) star += "*";
   console.log(space + star);
-  i++;
 }
-
 
 
 /////////////////СТРІЛКА ВГОРУ  ++++++/////////
