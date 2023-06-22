@@ -52,11 +52,6 @@
 
 /////////////СТРІЛКА ВЛІВО --------- ///////////////
 
-
-
-
-
-/////////////////СТРІЛКА ВПРАВО ///////////////////
 const len = 7;
 const mid = Math.floor(len / 2);
 
@@ -64,11 +59,31 @@ for (let i = 1; i <= len; i++) {
   let stars = '';
 
   if (i <= mid) {
-    stars = '*'.repeat(i);
+    stars = ' '.repeat(mid - i) + '*'.repeat(i);
   } else {
-    stars = '*'.repeat(len - i + 1);
+    stars = ' '.repeat(i - mid - 1) + '*'.repeat(len - i + 1);
   }
 
   console.log(stars);
 }
+
+
+
+
+
+/////////////////СТРІЛКА ВПРАВО ///////////////////
+// const len = 7;
+// const mid = Math.floor(len / 2);
+
+// for (let i = 1; i <= len; i++) {
+//   let stars = '';
+
+//   if (i <= mid) {
+//     stars = '*'.repeat(i);
+//   } else {
+//     stars = '*'.repeat(len - i + 1);
+//   }
+
+//   console.log(stars);
+// }
 
