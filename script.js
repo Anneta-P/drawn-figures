@@ -52,20 +52,37 @@
 
 /////////////СТРІЛКА ВЛІВО --------- ///////////////
 
-const len = 7;
-const mid = Math.floor(len / 2);
+// const len = 7;
+// const mid = Math.floor(len / 2);
 
-for (let i = 1; i <= len; i++) {
-  let stars = '';
+// for (let i = 1; i <= mid; i++) {
+// console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+// }
+// console.log("*".repeat (mid + 1))
+// for (let i = mid; i >= 1; i--) {
+//     console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+//     }
 
-  if (i <= mid) {
-    stars = ' '.repeat(mid - i) + '*'.repeat(i);
-  } else {
-    stars = ' '.repeat(i - mid - 1) + '*'.repeat(len - i + 1);
-  }
+    const len = 7;
+    const mid = Math.floor(len / 2);
+    
+    for (let i = 1; i <= mid; i++) {
+    console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+    }
+    console.log("*".repeat (mid))
+    for (let i = mid; i >= 1; i--) {
+        console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+        }
+    
 
-  console.log(stars);
-}
+// for (let i = 1; i <= len; i++) {
+//   let stars = '*';
+
+// трикутник намалювати
+// трикутник в іншу сторону
+
+//   console.log (stars + "\n");
+// }
 
 
 
