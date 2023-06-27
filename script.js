@@ -67,12 +67,19 @@
     const mid = Math.floor(len / 2);
     
     for (let i = 1; i <= mid; i++) {
-    console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+    console.log(" " + " ".repeat(mid - i) + "*".repeat (i));
     }
-    console.log("*".repeat (mid))
+    console.log("*".repeat (mid + 1));
     for (let i = mid; i >= 1; i--) {
-        console.log( " ".repeat(mid - i) + "*" .repeat (i) );
+        console.log(" " +  " ".repeat(mid - i) + "*" .repeat (i));
         }
+
+
+    // if (i <= mid) {
+    //     stars = '*'.repeat(i);
+    //   } else {
+    //     stars = '*'.repeat(len - i + 1);
+    //   }
     
 
 // for (let i = 1; i <= len; i++) {
